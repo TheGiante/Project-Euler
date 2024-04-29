@@ -1,5 +1,4 @@
-# Project Euler
-# Project Stack
+# Project Euler Stack
 * HTML
 * CSS
 * Bootstrap
