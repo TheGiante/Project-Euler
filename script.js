@@ -1,6 +1,3 @@
-// Get the value of the input field with id
-//const num = parseInt($("#user-input").val());
-
 //Multiples of 3 or 5
 function multiplesof3or5() {
   var num = parseInt($("#user-input").val());
@@ -10,8 +7,8 @@ function multiplesof3or5() {
       sum += i;
     }
   }
-  $("#demo").html(sum);
-  //console.log(sum);
+
+  $("#answer-content1").html("Answer : " + sum);
 }
 
 //Fibonacci numbers
@@ -27,7 +24,7 @@ function fibonacciNumbers() {
         firstNumber = secondNumber;
         secondNumber = thirdNumber;
     }
-    $("#demo2").html(sum);
+    $("#answer-content2").html("Answer : " + sum);
 }
 //Largest Prime Number
 function primeNumber() {
@@ -43,6 +40,6 @@ function primeNumber() {
         }
 
     }
-    $("#demo3").html(factor);
+    $("#answer-content3").html("Answer : " + factor);
 }
 
